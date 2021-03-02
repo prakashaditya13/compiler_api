@@ -1,0 +1,26 @@
+{
+  "name": "compiler_api",
+  "version": "1.0.0",
+  "description": "This is an Api for program compilation",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 -f start index.js"
+  },
+  "keywords": [
+    "compiler",
+    "online",
+    "compiler",
+    "programming",
+    "execute",
+    "child",
+    "process"
+  ],
+  "author": "Aditya Prakash <prakashaditya13011999@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
